@@ -29,4 +29,20 @@ while True:
     s += n
 print('A soma vale {}'.format(s))
 
-# USANDO FSTRINGS
+''' USANDO FSTRINGS
+Eu posso utilizar para substituir o .format()
+# in
+    a = 10
+    print(f'a = {a}')
+# out
+    'a = 10'
+'''
+# MAIS EXEMPLOS:
+nome = 'José'
+idade = 33
+print(f'O {nome} têm {idade} anos.')
+
+nome = 'José'
+idade = 20
+salário = 987.3
+print(f'O {nome:=<20} tem {idade} e ganha {salário:.2f}')
